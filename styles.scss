@@ -4,16 +4,14 @@
   margin: 0;
   padding: 0;
 }
-@media only screen and (max-width: 425px) {
-}
-
-@media only screen and (min-width: 425px) {
-}
 
 .section-contact__container {
   background-image: url("./src/piano-fondo-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
@@ -25,6 +23,7 @@ h2 {
 p {
   text-align: center;
   margin-top: 20px;
+  width: 50%;
   font-family: $font-principal;
 }
 
@@ -79,4 +78,149 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-family: $font-button;
+}
+
+@media only screen and (max-width: 425px) {
+  .section-contact__container {
+    background-image: url("./src/piano-fondo-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 20px;
+    width: 65%;
+    font-family: $font-principal;
+  }
+
+  .flex__label {
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: $font-principal;
+    text-align: left;
+  }
+
+  .container__tel__mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container__telephone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    label {
+      margin-right: 350px;
+    }
+}
+
+.container__mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  label {
+    margin-right: 375px;
+  }
+}
+  .flex__box {
+    background-color: rgb(51, 49, 46);
+    text-align: center;
+    margin-top: 20px;
+    width: 380px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+
+}
+
+@media only screen and (min-width: 425px) { 
+  .section-contact__container {
+    background-image: url("./src/pianofondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flex__label {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: $font-principal;
+    text-align: left;
+  }
+
+  .container__tel__mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+
+  .container__telephone {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      label {
+        margin-right: 110px;
+      }
+  }
+
+  .container__mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    label {
+      margin-right: 120px;
+    }
+
+  }
+
+  .flex__box {
+    background-color: rgb(51, 49, 46);
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+  
+  .flex__textarea {
+    background-color: rgb(51, 49, 46);
+    text-align: center;
+    margin-top: 20px;
+    width: 380px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    opacity: 0.7;
+  
+  }
+  
+  .button__send {
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 380px;
+    height: 32px;
+    border-radius: 8px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $font-button;
+  }
 }
