@@ -1,0 +1,107 @@
+
+.section-products__container{
+background: linear-gradient(180deg, rgba(224, 224, 224, 0) 0%, #d5d5d5 51.56%, rgba(245, 245, 245, 0) 100%);
+}
+
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.price__vector{
+    justify-content: center;
+    align-items: center;
+}
+
+.product__information hr{
+    align-items: center;
+    justify-content: center;
+    border-top: 2px dashed rgb(202, 202, 202)
+}
+
+.product__caracteristicas ul {
+    list-style: circle;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.product__caracteristicas li {
+    font-family: 'Raleway', sans-serif;
+    margin-right: 10px; /* Espacio entre elementos li */
+    display: flex;
+    align-items: center; /* Alineación vertical en el centro */
+    
+}
+.product__imagen{
+    position: absolute;
+    margin-left: 2rem;
+    
+}
+.products{
+    position: relative;
+  
+}
+.product__information{
+    margin-top: 6rem;
+    padding: 5rem 3rem 1rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.product__caracteristicas{
+    display: flex;
+    flex-direction: row;
+}
+
+.title_principal p{
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+.title {
+    font-size: larger;
+   justify-content: start;
+   font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+}
+.product__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Raleway', sans-serif; 
+    
+}
+
+.product__price span{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.price__vector{
+    background-color: black;
+    padding: 3px;
+    border-radius: 20%;
+}
+.section-products__btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-products__btn button{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 4rem;
+    padding: .3rem 2rem .3rem 2rem;
+}
+
