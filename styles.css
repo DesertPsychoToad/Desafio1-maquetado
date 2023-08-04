@@ -4,64 +4,6 @@
   list-style: none;
 }
 
-@media only screen and (min-width: 320px) {
-  .nav-menu__item--large {
-    display: flex;
-    font-family: Raleway;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 16px;
-    letter-spacing: 0.05em;
-    text-align: center;
-  }
-  .piano__container-big {
-    width: 589px;
-    height: 454px;
-  }
-  .h1__container-desktop {
-    font-family: Abril Fatface;
-    font-size: 56px;
-    font-weight: 400;
-    line-height: 76px;
-    letter-spacing: 0.05em;
-    text-align: center;
-  }
-  .section-principal__item-logos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-top: 252px;
-  }
-}
-@media only screen and (max-width: 959px) {
-  .nav-menu__item--large {
-    display: none;
-  }
-  .section-principal__item-logos {
-    display: none;
-  }
-  .h1__container-mobile {
-    font-family: Abril Fatface;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 43px;
-    letter-spacing: 0.05em;
-    text-align: center;
-  }
-  .piano__container-small {
-    width: 270px;
-    height: 210px;
-  }
-  .main__container {
-    height: 100px;
-    font-family: Raleway;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-}
 .nav-main__menu {
   font-family: Raleway;
   font-size: 14px;
@@ -86,7 +28,6 @@
 }
 
 .main__container {
-  height: 100px;
   font-family: Raleway;
   text-align: center;
   display: flex;
@@ -142,7 +83,6 @@ nav__container {
 }
 
 .section-principal__item {
-  height: 32px;
   top: 273px;
   left: 488px;
 }
@@ -179,4 +119,362 @@ nav__container {
 
 .h1__container-mobile .h1__container-desktop {
   margin-top: 20px;
+}
+
+.section-new-product__container {
+  background: url(images/bg-new-product.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+.section-new-product__container .new-product-title__container .new-product__title {
+  font-family: "Abril Fatface";
+  width: 300px;
+  text-align: center;
+}
+.section-new-product__container .new-product-img__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-new-product__container .new-product__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-new-product__container .new-product__container .name-product__title {
+  font-family: "Abril Fatface";
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.section-new-product__container .new-product__container .ratio__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 50%;
+}
+.section-new-product__container .new-product__container .ratio__container .ratio__text {
+  font-family: "Raleway";
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.section-new-product__container .new-product__container .ratio__container .ratio__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.section-new-product__container .new-product__container .price__text {
+  font-family: "Abril Fatface";
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.section-new-product__container .new-product__container .description__text {
+  font-family: "Raleway";
+  color: #fff;
+  text-align: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 20px;
+}
+.section-new-product__container .new-product__container .spec__items {
+  margin-top: 20px;
+  display: flex;
+  font-family: "Raleway";
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  width: 50%;
+  justify-content: space-between;
+}
+.section-new-product__container .new-product__container .add-cart__button {
+  margin-top: 20px;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #000;
+  color: #fff;
+  background: #000;
+  font-family: "Poppins";
+  font-weight: 400;
+  width: 220px;
+}
+.section-new-product__container .new-product__container .add-cart__button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.footer__container {
+  background: linear-gradient(#fff, #6f6f6f);
+  margin-top: 90px;
+}
+.footer__container .footer-logo__container {
+  order: 1;
+  text-align: center;
+}
+.footer__container .footer-social__container {
+  display: flex;
+  justify-content: center;
+}
+.footer__container .footer-social__container .footer-social__items {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+.footer__container .us__container {
+  height: 190px;
+}
+.footer__container .us__container .us__title {
+  font-family: "Abril Fatface";
+  font-size: 20px;
+  margin-top: 35px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+.footer__container .us__container .us-menu__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 10px;
+  height: 130px;
+  font-family: "Poppins";
+}
+.footer__container .contact-us__container {
+  width: 33%;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  order: 3;
+}
+.footer__container .contact-us__container .contact-us__title {
+  font-family: "Abril Fatface";
+  font-size: 20px;
+  margin-top: 35px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+.footer__container .footer__text {
+  font-family: "Poppins";
+  font-size: 13px;
+}
+.footer__container .copyright__container {
+  order: 5;
+}
+.footer__container .copyright__container .copyright {
+  margin-top: 35px;
+  font-family: "Raleway";
+  font-size: 12px;
+}
+.footer__container .autor__container {
+  margin-top: 20px;
+  order: 6;
+}
+.footer__container .autor__container .autor__text {
+  font-family: "Raleway";
+  font-size: 14px;
+}
+.footer__container .autor__container .autor__icon-heart {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer__container .autor__container .autor__name {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (min-width: 425px) {
+  .nav-menu__item--large {
+    display: flex;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .piano__container-big {
+    width: 589px;
+    height: 454px;
+  }
+  .h1__container-desktop {
+    font-family: Abril Fatface;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .section-principal__item-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 252px;
+  }
+  .section-new-product__container {
+    background: url(images/bg-new-product-gradient.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  .section-new-product__container .new-product-title__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .section-new-product__container .new-product-title__container .new-product__title {
+    font-family: "Abril Fatface";
+    width: 300px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .section-new-product__container .new-product-img__container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-new-product__container .new-product-img__container .new-product__img {
+    width: 100%;
+  }
+  .section-new-product__container .new-product__container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .section-new-product__container .new-product__container .description__text {
+    text-align: left;
+  }
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .footer__container .footer-logo__container {
+    width: 33%;
+  }
+  .footer__container .footer-social__container {
+    width: 33%;
+    order: 4;
+  }
+  .footer__container .us__container {
+    width: 33%;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer__container .contact-us__container {
+    width: 33%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 3;
+  }
+  .footer__container .copyright__container {
+    width: 67%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .nav-menu__item--large {
+    display: none;
+  }
+  .section-principal__item-logos {
+    display: none;
+  }
+  .h1__container-mobile {
+    font-family: Abril Fatface;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .piano__container-small {
+    width: 270px;
+    height: 210px;
+  }
+  .main__container {
+    font-family: Raleway;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .section-new-product__container {
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .section-new-product__container .new-product-img__container .new-product__img {
+    width: 100%;
+  }
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+  }
+  .footer__container .footer-logo__container {
+    width: 100%;
+  }
+  .footer__container .footer-social__container {
+    width: 100%;
+    order: 2;
+  }
+  .footer__container .us__container {
+    width: 100%;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__container .us__container .us-menu__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__container .contact-us__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 4;
+    text-align: center;
+  }
+  .footer__container .copyright__container {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__container .autor__container {
+    text-align: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
